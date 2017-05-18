@@ -27,24 +27,4 @@ public class MongoDBDemo {
 		A3 a = new A3();
 		
 	}
-	/*public static void main(String[] args) {
-		try {
-			MongoClient	mongoClient = new MongoClient("10.10.221.174",27017);
-			
-			DB db = mongoClient.getDB("vtm");
-			Set<String> collections = db.getCollectionNames();
-			
-
-			DBCollection vtmWL = db.getCollection("vTMWorkLists");
-			vtmWL.getDB();
-			
-			System.out.println("Connect to database successfully");
-			boolean	auth =	db.authenticate("aaa",new char[]{'s','s'});
-			System.out.println("Authentication: " + auth);
-			
-		} catch (UnknownHostException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}*/
 }
