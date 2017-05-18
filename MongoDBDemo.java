@@ -21,9 +21,6 @@ public class MongoDBDemo {
 		lst.add("fff");
 		List<String> lst1 = new ArrayList<String>();;
 		lst1.add("ggg");
-		//lst = lst1;
-		
-		//final String a = "xxx";
 		A3 a = new A3();
 		
 	}
